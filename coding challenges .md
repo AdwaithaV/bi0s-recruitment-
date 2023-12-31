@@ -13,3 +13,5 @@
 ![Screenshot (72)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/5e48b198-d4b4-4064-8842-9c0e514887e7)
 ## question 2 
 
+![Screenshot (74)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/dd8056b5-458a-4bf6-a123-47ee859d2203)
+![Screenshot (73)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/e349fc89-45c4-489f-a4d7-13403a8a3ae6)
