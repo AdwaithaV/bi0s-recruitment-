@@ -22,6 +22,8 @@ d) To diplay the type of any file we can use the command **file** syntax: file<n
 
 e) To add a text to our current file we can use the command **echo**  syntax: echo "text" > <name of the file>
 
-f)
+f) To display the contents of any file we can use the command **cat** . here we can see the text we entered earlier as the output 
+
+g)To display the type of our current file we use the same command **file** but here we can see that the type of our file changed into *ASCII text*
 
 
