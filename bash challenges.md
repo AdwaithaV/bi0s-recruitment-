@@ -3,6 +3,8 @@
 
 ![WhatsApp Image 2023-12-31 at 15 49 44_a8437530](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/64abf676-4243-402b-a32b-96af6c801080)
 
+### write up
+
 a) we can use the command  **pwd (print working directory)**  here we can see that our current directory is  */home/acer*
 
 b) To list out the contents of the current directory we can use the command **ls** 
@@ -11,6 +13,8 @@ c) To list out the hidden files of our current directory we can use the command 
 
 ## QUESTION 2
 ![BIOS IMAGE 2](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/78049947-e15d-452d-a3c8-344cf9b0f542)
+
+### write up
 
 a) To create a new directory the command **mkdir** is used here i named my directory as *valorant* syntax: mkdir<name of the directory>
 
