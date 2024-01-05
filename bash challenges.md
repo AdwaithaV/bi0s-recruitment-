@@ -60,12 +60,68 @@ b) to display the contents of the file3 we can use the coomand **cat**
 
 
 ### write up
-a) to create a new directory we can use the command  **mkdir** (applies for creating multiple directories also)
+a) to create a new directory we can use the command  **mkdir** (applies to creating multiple directories also)
 
 
 b)use **mkdir** command
 
-c) we can use the command **cp** the syntax is : cp 
+c) use the **cp-r** command to copy a directory to another directory. syntax *cp -r (directory to be copied) ( destination directory)*
+
+d) we can use the command **rm -r** to remove or delete a directory here the syntax used is *rm -r d* 
+
+e) we can use the command **cp** to copy files into a directory the syntax is given above 
+
+
+## QUESTION 6
+
+
+
+
+### write up 
+
+
+a) use the command **cd** to navigate to a directory and then use the command **mv** to rename a file here the syntax used is : *mv (original file name ) (new file name)*
+
+b) to move a file to the parent directory we can use the same command **mv** and syntax however along with mv we can use **../** to fulfil this task that is **mv ../** 
+
+## QUESTION 7
+
+
+
+
+### write up
+a) to navigate to our home directory we can use the command **cd ~** 
+
+b) to create the same file in multiple directories we can use the command **touch** the syntax is *touch {a,b,d}/test*
+
+c)we can use the **find** command  to display the path of a file or directory  the syntax is *find ~/ -type f -name "test"* here the  **~/**  searches within the home directory and ** the **type f** represents the the item to be searched is the file  and **name** specifies the name of the item to be searched 
+
+
+## QUESTION 8
+
+
+
+
+### write up 
+a) use the **cd** command to go to the directory a to get the man page of grep we can use the command **man** (this is like a manual describing the use of each command in the Linux terminal) we can use **>** to redirect the output to the file grepman.txt
+
+b) we use the command **grep** to search for lines containing a specific word an we use the **-e** flag to specify the pattern that we need to search for 
+
+## QUESTION 9
+
+
+
+
+## write up 
+
+a) we can achieve this task using the single command **rm** the **-r** flag removes the b directory from the a directory recursively 
+
+
+b) to remove the files starting with the name "file"  we can use the command **rm** with a **-r** flag here the * is known as wildcard and checks if the specified files matches with the one we intend for 
+
+
+
+
 
 
 
