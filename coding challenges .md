@@ -18,15 +18,35 @@
 
 ## question 3
 import socket
+
+
 from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
+
+
 from cryptography.hazmat.backends import default_backend
+
+
 import hashlib
+
+
 import hmac
+
+
 import os
+
+
 def generate_key():
+
+
     return os.urandom(32)
+
+    
 def encrypt(key, message):
+
+
     iv = os.urandom(16)
+
+    
     cipher = Cipher(algorithms.AES(key), modes.CFB(iv), backend=default_backend())
     encryptor = cipher.encryptor()
     ciphertext = encryptor.update(message) + encryptor.finalize()
