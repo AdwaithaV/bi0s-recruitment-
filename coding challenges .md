@@ -17,92 +17,13 @@
 ![Screenshot (73)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/e349fc89-45c4-489f-a4d7-13403a8a3ae6)
 
 ## question 3
-import socket
+![Screenshot (93)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/24e22a21-1957-4af4-8ab4-3e8ea34382b2)
+
+![Screenshot (94)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/1731c77b-6a65-4661-bcd7-7650de7cb7bb)
+![Screenshot (95)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/bf51314e-be5d-45df-a468-c5a3ac47e8d2)
 
 
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
 
+![Screenshot (96)](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/2d1971c4-aaef-4b5a-abd0-6a41e2e9e70d)
 
-from cryptography.hazmat.backends import default_backend
-
-
-import hashlib
-
-
-import hmac
-
-
-import os
-
-
-def generate_key():
-
-
-    return os.urandom(32)
-
-    
-def encrypt(key, message):
-
-
-    iv = os.urandom(16)
-
-    
-    cipher = Cipher(algorithms.AES(key), modes.CFB(iv), backend=default_backend())
-    encryptor = cipher.encryptor()
-    ciphertext = encryptor.update(message) + encryptor.finalize()
-    return iv + ciphertext
-def decrypt(key, ciphertext):
-    iv = ciphertext[:16]
-    cipher = Cipher(algorithms.AES(key), modes.CFB(iv), backend=default_backend())
-    decryptor = cipher.decryptor()
-    message = decryptor.update(ciphertext[16:]) + decryptor.finalize()
-    return message
-def calculate_sha512(data):
-    sha512 = hashlib.sha512()
-    sha512.update(data)
-    return sha512.digest()
-def generate_hmac(key, data):
-    h = hmac.new(key, data, hashlib.sha256)
-    return h.digest()
-def server():
-    server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    server_socket.bind(('localhost', 12345))
-    server_socket.listen(1)
-    print("Server listening on port 12345")
-    conn, addr = server_socket.accept()
-    with conn:
-        print(f"Connected by {addr}")
-        key = generate_key()
-        conn.sendall(key)
-        while True:
-            ciphertext = conn.recv(1024)
-        if not ciphertext:
-                break
-            decrypted_message = decrypt(key, ciphertext)
-            integrity_hash = calculate_sha512(decrypted_message)
-            received_hmac = conn.recv(64)    
-            calculated_hmac = generate_hmac(key, integrity_hash)
-            if received_hmac == calculated_hmac:
-                print("Message Received:", decrypted_message.decode())
-            else:
-                print("Integrity check failed. Message may be tampered.")
-def client():
-    client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    client_socket.connect(('localhost', 12345))
-    key = client_socket.recv(32)
-    while True:
-        message = input("Enter your message: ")
-        ciphertext = encrypt(key, message.encode()
-        integrity_hash = calculate_sha512(message.encode())
-        hmac_generated = generate_hmac(key, integrity_hash)
-        client_socket.sendall(ciphertext)
-        client_socket.sendall(hmac_generated)
-if __name__ == "__main__":
-    import multiprocessing
- server_process = multiprocessing.Process(target=server)
-    client_process = multiprocessing.Process(target=client)
-    server_process.start()
-    client_process.start()
-    server_process.join()
-    client_process.join()
 
