@@ -137,7 +137,7 @@ the command used is *wget <adresslink>*
 ## QUESTION 11 
 
 
-[WhatsApp Image 2024-01-15 at 17 17 57_d1ebac72](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/b5effe4d-e558-482b-ab4c-71178ba435a0)
+
 
 
 ![Wha!tsApp Image 2024-01-15 at 17 16 33_dfad0f1b](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/1fe8a241-6ed7-4d1b-ac71-84e7392399e0)
@@ -149,4 +149,14 @@ the command used is *wget <adresslink>*
 
 ## QUESTION 13 
 
+![WhatsApp Image 2024-01-15 at 17 26 29_8aff2fb9](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/b9d6eea9-69ef-4c8e-88fb-6228a89c7268)
 
+![WhatsApp Image 2024-01-15 at 17 26 29_16cbbcb8](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/a54e7cd0-ad9b-4c0f-8fc0-fbfda9a57742)
+
+![WhatsApp Image 2024-01-15 at 17 27 39_b1b14606](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/34683c41-63a1-4a48-bf21-008a4bb34d88)
+
+![WhatsApp Image 2024-01-15 at 17 28 32_70be9250](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/2f1af65b-9ac5-4758-a01b-873ca179b513)
+
+![WhatsApp Image 2024-01-15 at 17 29 06_682a8e12](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/065cdddc-8185-471f-b9f5-0f9a52ed6782)
+
+![WhatsApp Image 2024-01-15 at 17 29 19_3e910548](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/2ae952e5-2bb1-4a77-98e1-b6f0818c8763)
