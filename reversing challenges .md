@@ -33,7 +33,28 @@ i could only solve the first two challenges of this .
 
 ## level 1 
 
-we can use the move function to store the value of the 
+we can use the move function to store the value to a register
+syntax : mov $0x1337,%rdi
+
+
+$ - the following value is a immediate value 
+
+
+%- we are storing the value into a register
+
+## level 2
+
+we can use the move command here also
+
+syntax:
+
+mov $0x1337, %rax
+
+mov $0xCAFED00D1337BEEF, % r12
+
+
+mov $0x31337 ,%rsp
+
 
 
 
