@@ -119,9 +119,32 @@ a) we can achieve this task using the single command **rm** the **-r** flag remo
 
 b) to remove the files starting with the name "file"  we can use the command **rm** with a **-r** flag here the * is known as wildcard and checks if the specified files matches with the one we intend for 
 
+## QUESTION 10
+![WhatsApp Image 2023-12-31 at 15 49 44_a8437530](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/e874224a-f488-4b4e-b36e-3bc7c0513d24)
+![WhatsApp Image 2024-01-15 at 17 11 10_7d741652](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/d29e294d-41c4-468d-b13c-22f53d182278)
+![WhatsApp Image 2024-01-15 at 17 15 02_ad9be6f5](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/9258edf8-815d-4116-8339-9292b9af3ec5)
 
 
 
 
+## write up 
+
+
+a) the required picture is not found in the prescribed link however it is found in https://blog.bi0s.in/assets/logo.png
+the command used is *wget <adresslink>*
+
+
+## QUESTION 11 
+
+
+[WhatsApp Image 2024-01-15 at 17 17 57_d1ebac72](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/b5effe4d-e558-482b-ab4c-71178ba435a0)
+![Wha!tsApp Image 2024-01-15 at 17 16 33_dfad0f1b](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/1fe8a241-6ed7-4d1b-ac71-84e7392399e0)
+
+## QUESTION 12
+
+
+![WhatsApp Image 2024-01-15 at 17 21 01_962a4789](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/b343e36a-5bd7-4baa-9279-130e382cb3cc)
+
+## QUESTION 13 
 
 
