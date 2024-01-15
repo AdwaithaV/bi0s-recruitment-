@@ -138,6 +138,8 @@ the command used is *wget <adresslink>*
 
 
 [WhatsApp Image 2024-01-15 at 17 17 57_d1ebac72](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/b5effe4d-e558-482b-ab4c-71178ba435a0)
+
+
 ![Wha!tsApp Image 2024-01-15 at 17 16 33_dfad0f1b](https://github.com/AdwaithaV/bi0s-recruitment-/assets/142923950/1fe8a241-6ed7-4d1b-ac71-84e7392399e0)
 
 ## QUESTION 12
