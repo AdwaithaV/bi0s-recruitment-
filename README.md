@@ -7,6 +7,4 @@ This section includes code solutions and explanations for the coding challenges.
 ### Bash Challenges:
 Detailed scripts and solutions for the bash-related challenges
 ### Reversing Challenges (Write-ups)
-Comprehensive write-ups elucidating the strategies and approaches used to conquer the reversing challenges.
-
-Each section is crafted to showcase my problem-solving abilities, technical proficiency, and dedication to overcoming challenges. I hope this demonstrates my enthusiasm and competence in tackling complex problems.
+This section was quite tough for me since my Java knowledge is basic. However, I did manage to complete two Java challenges. I also gave the assembly challenges a shot and got through level one and level two. 
